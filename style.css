@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 10px 200px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap: 10px;
+    padding-left: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+body {
+    margin: 0px;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.section_1 {
+    display: flex;
+    padding: 10px 200px;
+    background-color: #1f2937;
+}
+
+.section_1_left, .section_1_right {
+    flex: 1;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
